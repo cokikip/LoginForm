@@ -1,0 +1,85 @@
+.img1 {
+	width: 100%;
+	height: 200px;
+}
+
+.login {
+	align-content: center;
+}
+
+.pad {
+	margin-top: 30px;
+	padding: 50px 10px 10px 10px;
+}
+
+.pad1 {
+	margin-top: 180px;
+	padding: 10px 10px 10px 10px;
+}
+
+.pad3 {
+	margin-top: 120px;
+	padding: 10px 10px 10px 10px;
+}
+
+.vote1 {
+	background-color: aqua;
+}
+
+.vote2 {
+	background-color: rgb(46, 163, 46);
+	padding: 10px;
+}
+
+btn1 {
+	margin-top: 180px;
+	padding: 10px 10px 10px 10px;
+}
+
+.div1 {
+	padding: 20px 10px 15px 25px;
+}
+
+.div2 {
+	padding-top: 30px;
+}
+
+#fia>div {
+	display: inline-block;
+}
+
+#fia>label {
+	display: inline;
+}
+.padtop{
+    padding-top: 100px;
+
+}
+
+ input[type="checkbox"]:checked + label::after {
+       content: '';
+       position: absolute;
+       width: 1.2ex;
+       height: 0.4ex;
+       background: rgba(0, 0, 0, 0);
+       top: 0.9ex;
+       left: 0.4ex;
+       border: 3px solid blue;
+       border-top: none;
+       border-right: none;
+       -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+       -o-transform: rotate(-45deg);
+       -ms-transform: rotate(-45deg);
+       transform: rotate(-45deg);
+    }
+
+    input[type="checkbox"] {
+       line-height: 2.1ex;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+        position: absolute;
+        left: -999em;
+    }
